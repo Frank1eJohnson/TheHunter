@@ -16,6 +16,8 @@
    your git tool. REMEMBER IF THERE are FILES FROM __StarterContent__ STOP
    COMMITING AND CHECK!!!!!!! (Starter Content files should already be ignored.)
 
+5. ignore 5 this is a test.
+
 That's it for now!
 
 -Windy 2.17
