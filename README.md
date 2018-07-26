@@ -1,23 +1,19 @@
-# The Hunter by Project Avalon
+# The Hunter
 
-## How to set up:
 
-1. use GitHub Desktop (https://desktop.github.com/) - or any other git tool if
-   you can handle - to clone the project to your computer.
 
-2. Remember to create a __new project__ with __StarterContent__ and copy its
-   Content/StarterContent__ to the __Content__ folder of this project!!!!!
+Since 2020
 
-3. Then, launch the __TheHunter.uproject__, right click any file in Content Browser
-   and click __Connect to Source Control__. If this option does not exist then
-   ignore me.
+Under development.
 
-4. That's it. when you need to commit and push, preferably save all and use
-   your git tool. REMEMBER IF THERE are FILES FROM __StarterContent__ STOP
-   COMMITING AND CHECK!!!!!!! (Starter Content files should already be ignored.)
+An asymmetric 1v1 multiplayer game. The story is about an army hunting a dragon.
+So one player play as the army like playing an RTS game, while another player
+plays as a dragon like a flight simulator (or dragon simulator!).
 
-5. ignore 5 this is a test.
+![Dragon1](https://github.com/Sabrave/TheHunter/raw/master/screenshots/1.png "Dragon1")
 
-That's it for now!
+![Dragon2](https://github.com/Sabrave/TheHunter/raw/master/screenshots/2.png "Dragon2")
 
--Windy 2.17
+![Dragon3](https://github.com/Sabrave/TheHunter/raw/master/screenshots/3.png "Dragon3")
+
+![](https://github.com/Sabrave/TheHunter/raw/master/screenshots/4.png "RTS1")
