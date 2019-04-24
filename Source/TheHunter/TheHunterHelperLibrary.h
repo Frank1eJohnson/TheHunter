@@ -17,32 +17,22 @@
 //==============================================================================
 
 
-#include "TheHunter.h"
-#include "Arrow.h"
+#pragma once
 
+#include "Kismet/BlueprintFunctionLibrary.h"
+#include "TheHunterHelperLibrary.generated.h"
 
-// Sets default values
-AArrow::AArrow()
+/**
+ * Helper function library for TheHunter
+ */
+UCLASS()
+class THEHUNTER_API UTheHunterHelperLibrary : public UBlueprintFunctionLibrary
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
-
-	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("This is an on screen message!"));
-    
-
-}
-
-// Called when the game starts or when spawned
-void AArrow::BeginPlay()
-{
-	Super::BeginPlay();
+	GENERATED_BODY()
 	
-}
-
-// Called every frame
-void AArrow::Tick( float DeltaTime )
-{
-	Super::Tick( DeltaTime );
-
-}
-
+public:
+    UFUNCTION(BlueprintCallable, BlueprintPure, Category = "TheHunterHelperLibrary")
+	static FVector RotateTowardsRandomDirection(FVector origin, float angle);
+	
+	
+};

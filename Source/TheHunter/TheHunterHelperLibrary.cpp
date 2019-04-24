@@ -16,33 +16,20 @@
 //
 //==============================================================================
 
-
 #include "TheHunter.h"
-#include "Arrow.h"
+#include "TheHunterHelperLibrary.h"
 
 
-// Sets default values
-AArrow::AArrow()
+FVector UTheHunterHelperLibrary::RotateTowardsRandomDirection(FVector origin, float angle)
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
 
-	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("This is an on screen message!"));
-    
+	auto rotationAxis = FVector::CrossProduct(origin, FMath::VRand());
+	while (rotationAxis.IsNearlyZero())
+		rotationAxis = FVector::CrossProduct(origin, FMath::VRand());
+	rotationAxis.Normalize();
+
+	return origin.RotateAngleAxis(angle, rotationAxis);
 
 }
 
-// Called when the game starts or when spawned
-void AArrow::BeginPlay()
-{
-	Super::BeginPlay();
-	
-}
-
-// Called every frame
-void AArrow::Tick( float DeltaTime )
-{
-	Super::Tick( DeltaTime );
-
-}
 
