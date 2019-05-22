@@ -8,7 +8,8 @@ public class TheHunterTarget : TargetRules
 	public TheHunterTarget(TargetInfo Target)
 	{
 		Type = TargetType.Game;
-	}
+        bUsesSteam = true;
+    }
 
 	//
 	// TargetRules interface.
