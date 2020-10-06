@@ -10,10 +10,10 @@ An asymmetric 1v1 multiplayer game. The story is about an army hunting a dragon.
 So one player play as the army like playing an RTS game, while another player
 plays as a dragon like a flight simulator (or dragon simulator!).
 
-![Dragon1](https://github.com/Sabrave/TheHunter/raw/master/screenshots/1.png "Dragon1")
+![screenshot1](https://github.com/Sabrave/TheHunter/raw/master/screenshots/beta/20160316160954_1.jpg "screenshot1")
 
-![Dragon2](https://github.com/Sabrave/TheHunter/raw/master/screenshots/2.png "Dragon2")
+![screenshot2](https://github.com/Sabrave/TheHunter/raw/master/screenshots/beta/20160316154857_1.jpg "screenshot2")
 
-![Dragon3](https://github.com/Sabrave/TheHunter/raw/master/screenshots/3.png "Dragon3")
+![screenshot3](https://github.com/Sabrave/TheHunter/raw/master/screenshots/beta/20160316160518_1.jpg "screenshot3")
 
-![](https://github.com/Sabrave/TheHunter/raw/master/screenshots/4.png "RTS1")
+![screenshot4](https://github.com/Sabrave/TheHunter/raw/master/screenshots/beta/20160316155557_1.jpg "screenshot4")
