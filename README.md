@@ -10,7 +10,9 @@ An asymmetric 1v1 multiplayer game. The story is about an army hunting a dragon.
 So one player play as the army like playing an RTS game, while another player
 plays as a dragon like a flight simulator (or dragon simulator!).
 
-Demo:
+Demo: https://www.youtube.com/watch?v=xo7S7od-mmE
+Gameplay - Dragon: https://www.youtube.com/watch?v=CcgOoU62NFY
+Gameplay - Army: https://www.youtube.com/watch?v=P0BwpVHdth4
 
 ## Gameplay
 
