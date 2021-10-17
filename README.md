@@ -23,10 +23,14 @@ Gameplay - Army: https://www.youtube.com/watch?v=P0BwpVHdth4
 
 
 
-![screenshot1](https://github.com/Sabrave/TheHunter/raw/master/screenshots/beta/20160316160954_1.jpg "screenshot1")
+![screenshot1](https://github.com/Sabrave/TheHunter/raw/master/screenshots/final_of_prototype/20160323192516_1.jpg "screenshot1")
 
-![screenshot2](https://github.com/Sabrave/TheHunter/raw/master/screenshots/beta/20160316154857_1.jpg "screenshot2")
+![screenshot2](https://github.com/Sabrave/TheHunter/raw/master/screenshots/final_of_prototype/20160323192700_1.jpg "screenshot2")
 
-![screenshot3](https://github.com/Sabrave/TheHunter/raw/master/screenshots/beta/20160316160518_1.jpg "screenshot3")
+![screenshot3](https://github.com/Sabrave/TheHunter/raw/master/screenshots/final_of_prototype/20160323192711_1.jpg "screenshot3")
 
-![screenshot4](https://github.com/Sabrave/TheHunter/raw/master/screenshots/beta/20160316155557_1.jpg "screenshot4")
+![screenshot4](https://github.com/Sabrave/TheHunter/raw/master/screenshots/final_of_prototype/20160323192736_1.jpg "screenshot4")
+
+![screenshot5](https://github.com/Sabrave/TheHunter/raw/master/screenshots/final_of_prototype/20160323192740_1.jpg "screenshot5")
+
+![screenshot6](https://github.com/Sabrave/TheHunter/raw/master/screenshots/final_of_prototype/20160323220655_2.jpg "screenshot6")
