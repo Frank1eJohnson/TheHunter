@@ -1,6 +1,6 @@
 //==============================================================================
 //
-// Copyright 2016 Windy Darian(Ruoyu Fan), Xueyin Wan, Menglu Wang
+// Copyright 2016-2017 Windy Darian(Ruoyu Fan), Xueyin Wan, Menglu Wang
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -15,7 +15,6 @@
 // limitations under the License.
 //
 //==============================================================================
-
 
 #pragma once
 
@@ -32,7 +31,14 @@ class THEHUNTER_API UTheHunterHelperLibrary : public UBlueprintFunctionLibrary
 	
 public:
     UFUNCTION(BlueprintCallable, BlueprintPure, Category = "TheHunterHelperLibrary")
-	static FVector RotateTowardsRandomDirection(FVector origin, float angle);
+	static FVector RotateTowardsRandomDirection(FVector Origin, float Angle);
+
+
+	/**
+	 * Given positions, gravity and projectile initial speed, solve for direction of shooting, also returns time of hitting
+	 */
+	UFUNCTION(BlueprintCallable, BlueprintPure, Category = "TheHunterHelperLibrary")
+	static FVector CalculateProjectileDirection(FVector Target, FVector Origin, FVector Gravity, float Speed, bool& bWillHit, float& Time);
 	
 	
 };
