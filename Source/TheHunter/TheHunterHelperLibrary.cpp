@@ -20,7 +20,6 @@
 #include "TheHunterHelperLibrary.h"
 
 #include <limits>
-#include <cmath>
 
 FVector UTheHunterHelperLibrary::RotateTowardsRandomDirection(FVector Origin, float Angle)
 {
@@ -152,6 +151,7 @@ FVector CalculateProjectileDirectionHelper(FVector Target, FVector Origin, FVect
 		+ 2 * Distance_Y * GravitySize * Speed_2 
 		+ Speed_4;
 
+	// TODO: an option to make the unit prefer vertical strikes (-Sqrt(DeltaA))
 	// To make sure archers can fire to a close position even if cannot hit;
 	auto AlteredSqrtDeltaA = DeltaA >= 0 ? FMath::Sqrt(DeltaA) : 0;
 	auto DeltaB = Distance_Y * GravitySize + Speed_2 + AlteredSqrtDeltaA;
