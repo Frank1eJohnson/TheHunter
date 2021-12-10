@@ -1,18 +1,12 @@
 # The Hunter
 
-
-
-Since 2020
-
-Under development.
-
 An asymmetric 1v1 multiplayer game. The story is about an army hunting a dragon.
 So one player play as the army like playing an RTS game, while another player
 plays as a dragon like a flight simulator (or dragon simulator!).
 
-Demo: https://www.youtube.com/watch?v=xo7S7od-mmE
-Gameplay - Dragon: https://www.youtube.com/watch?v=CcgOoU62NFY
-Gameplay - Army: https://www.youtube.com/watch?v=P0BwpVHdth4
+Demo:
+
+https://user-images.githubusercontent.com/60977360/154796958-98fdd114-38ec-42b5-8aa7-dc84d264aa70.mp4
 
 ## Gameplay
 
