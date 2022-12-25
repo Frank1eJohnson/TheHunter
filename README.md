@@ -15,10 +15,6 @@ https://user-images.githubusercontent.com/60977360/154796958-98fdd114-38ec-42b5-
 * The goal of the general (or the army) is to kill the dragon.
 * TODO: write the rules here.
 
-
-
-![screenshot1](https://github.com/Sabrave/TheHunter/raw/master/screenshots/final_of_prototype/20160323192516_1.jpg "screenshot1")
-
 ![screenshot2](https://github.com/Sabrave/TheHunter/raw/master/screenshots/final_of_prototype/20160323192700_1.jpg "screenshot2")
 
 ![screenshot3](https://github.com/Sabrave/TheHunter/raw/master/screenshots/final_of_prototype/20160323192711_1.jpg "screenshot3")
